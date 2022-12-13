@@ -24,6 +24,13 @@ the following piece of json
 and execute `npx sequelize db:create`
 
 
+
+## DB Design
+    - Airplane Table
+    - Flight
+    - Airport
+    - City
+
 /
     - src/
         index.js // server
