@@ -54,7 +54,7 @@ const update = async (req, res) => {
         return res.status(201).json({
             data: response,
             success: true,
-            message: "Successfully deleted a city",
+            message: "Successfully update a city",
             err: {}
         });
     }catch(error){
@@ -75,7 +75,7 @@ const get = async (req, res) => {
         return res.status(201).json({
             data: response,
             success: true,
-            message: "Successfully deleted a city",
+            message: "Successfully get the city",
             err: {}
         });
     }catch(error){
