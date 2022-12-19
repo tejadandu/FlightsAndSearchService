@@ -1,5 +1,6 @@
 const { CityService } = require('../services/index');
 
+
 const cityService = new CityService();
 /*
 * POST
